@@ -7,7 +7,7 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout
+    - name: Checkout code
       uses: actions/checkout@main
       with:
         persist-credentials: false
