@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkch_blog=self.webpackChunkch_blog||[]).push([[1903],{1912:h=>{h.exports=JSON.parse('{"blogBasePath":"/haochan1996.gtihub.io/blog","blogTitle":"Blog","authorsListPath":"/haochan1996.gtihub.io/blog/authors"}')}}]);

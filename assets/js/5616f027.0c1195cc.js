@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkch_blog=self.webpackChunkch_blog||[]).push([[9332],{747:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/haochan1996.gtihub.io/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
