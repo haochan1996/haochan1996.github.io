@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '陈浩的个人网站',
-  tagline: '无聊的时候来看看吧',
+  title: '闲敲棋子落灯花',
+  tagline: '写下来，才不会忘记',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -32,8 +32,8 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'zh-Hans',
+    locales: ['zh-Hans'],
   },
 
   presets: [
@@ -76,7 +76,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: '我的网站',
+        title: '闲敲棋子落灯花',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -86,11 +86,12 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: '文档',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/read', label: '读书', position: 'left'},
+          {to: '/blog', label: '博客', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/haochan1996/haochan1996.github.io',
             label: 'GitHub',
             position: 'right',
           },
