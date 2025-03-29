@@ -16,7 +16,7 @@ jobs:
         npm install
         npm run-script build 
     - name: Deploy
-      uses: haochan1996/github-pages-deploy-action@releases/v3
+      uses: JamesIves/github-pages-deploy-action@v4
       with:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BRANCH: gh-pages
