@@ -105,7 +105,7 @@ const config = {
             items: [
               {
                 label: 'rust编程入门实战与进阶朱春雷',
-                to: '/docs/category/rust_basic',
+                to: '/docs/category/rust编程入门实战与进阶朱春雷',
               },
             ],
           },
