@@ -10,15 +10,15 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '闲敲棋子落灯花',
-  tagline: '写下来，才不会忘记',
-  favicon: 'img/favicon.ico',
+  title: '闲敲棋子落灯花',  // 网站的标题
+  tagline: '记录是为了不遗忘',  // 网站的标语
+  favicon: 'img/favicon.ico',  // 网站的 favicon
 
   // Set the production url of your site here
-  url: 'https://haochan1996.github.io/',
+  url: 'https://haochan1996.github.io/', // 网站的生产 URL
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/', // 网站的基本 URL
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -46,7 +46,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/haochan1996/haochan1996.github.io/tree/main/', // github仓库地址，存放文档的地方
         },
         blog: {
           showReadingTime: true,
@@ -57,7 +57,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/haochan1996/haochan1996.github.io/tree/main/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -88,6 +88,7 @@ const config = {
             position: 'left',
             label: '文档',
           },
+          
           {to: '/blog', label: '博客', position: 'left'},
           {
             href: 'https://github.com/haochan1996/haochan1996.github.io',
@@ -103,8 +104,8 @@ const config = {
             title: '文档',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'rust编程入门实战与进阶朱春雷',
+                to: '/docs/category/rust编程入门实战与进阶朱春雷',
               },
             ],
           },
@@ -139,7 +140,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} 陈浩的博客, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
