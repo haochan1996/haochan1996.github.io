@@ -2,6 +2,8 @@
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
+[Welocome to my personal website!](https://haochan1996.github.io/)
+
 ### Installation
 
 ```

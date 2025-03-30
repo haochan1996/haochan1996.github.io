@@ -32,8 +32,8 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'zh-Hans',
-    locales: ['zh-Hans'],
+    defaultLocale: 'en',
+    locales: ['en'],
   },
 
   presets: [
@@ -88,7 +88,6 @@ const config = {
             position: 'left',
             label: '文档',
           },
-          {to: '/read', label: '读书', position: 'left'},
           {to: '/blog', label: '博客', position: 'left'},
           {
             href: 'https://github.com/haochan1996/haochan1996.github.io',

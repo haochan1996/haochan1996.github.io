@@ -17,3 +17,14 @@ hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+
+
+rust:
+  label: Rust
+  permalink: /rust
+  description: Rust tag description,
+
+Python:
+  label: Python
+  permalink: /python
+  description: Python tag description
