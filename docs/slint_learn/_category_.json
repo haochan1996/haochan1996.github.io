@@ -1,8 +1,0 @@
-{
-  "label": "Slint GUI框架",
-  "position": 2,
-  "link": {
-    "type": "generated-index",
-    "description": "Slint 基于 Rust 的 GUI 框架，适用于嵌入式和桌面应用程序。"
-  }
-}
