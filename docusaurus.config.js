@@ -76,7 +76,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: '闲敲棋子落灯花',
+        title: '雪煎陈茶',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
