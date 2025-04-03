@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://haochan1996.github.io/blog</id>
-    <title>闲敲棋子落灯花 Blog</title>
+    <title>不急 Blog</title>
     <updated>2025-03-30T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://haochan1996.github.io/blog"/>
-    <subtitle>闲敲棋子落灯花 Blog</subtitle>
+    <subtitle>不急 Blog</subtitle>
     <icon>https://haochan1996.github.io/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[第一篇博客]]></title>
