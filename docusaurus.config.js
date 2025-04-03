@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '闲敲棋子落灯花',  // 网站的标题
-  tagline: '记录是为了不遗忘',  // 网站的标语
+  title: '不急',  // 网站的标题
+  tagline: '事缓则圆，人缓则安',  // 网站的标语
   favicon: 'img/favicon.ico',  // 网站的 favicon
 
   // Set the production url of your site here
