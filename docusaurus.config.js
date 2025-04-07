@@ -10,9 +10,9 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '不急',  // 网站的标题
-  tagline: '事缓则圆，人缓则安',  // 网站的标语
-  favicon: 'img/favicon.ico',  // 网站的 favicon
+  title: '知白守黑',  // 网站的标题
+  tagline: '知其白，守其黑，为天下式',  // 网站的标语
+  favicon: 'img/taichi.png',  // 网站的 favicon
 
   // Set the production url of your site here
   url: 'https://haochan1996.github.io/', // 网站的生产 URL
@@ -79,7 +79,7 @@ const config = {
         title: '雪煎陈茶',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/taichi.png',
         },
         items: [
           {
@@ -103,6 +103,10 @@ const config = {
           {
             title: '文档',
             items: [
+              {
+                label: 'PySide6学生信息管理系统',
+                to: '/docs/category/PySide6学生信息管理系统',
+              },
               {
                 label: 'rust编程入门实战与进阶朱春雷',
                 to: '/docs/category/rust编程入门实战与进阶朱春雷',
@@ -135,7 +139,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/haochan1996/haochan1996.github.io',
               },
             ],
           },
