@@ -104,8 +104,8 @@ const config = {
             title: '文档',
             items: [
               {
-                label: 'PySide6学生信息管理系统',
-                to: '/docs/category/PySide6学生信息管理系统',
+                label: 'PySide6学生管理系统',
+                to: '/docs/category/PySide6学生管理系统',
               },
               {
                 label: 'rust编程入门实战与进阶朱春雷',
