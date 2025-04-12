@@ -103,14 +103,14 @@ const config = {
           {
             title: '文档',
             items: [
-              {
-                label: 'pyside6学生管理系统',
-                to: '/docs/category/pyside6学生管理系统',
-              },
-              {
-                label: 'rust编程入门实战与进阶朱春雷',
-                to: '/docs/category/rust编程入门实战与进阶朱春雷',
-              },
+              // {
+              //   label: 'pyside6学生管理系统',
+              //   to: '/docs/category/pyside6学生管理系统',
+              // },
+              // {
+              //   label: 'rust编程入门实战与进阶朱春雷',
+              //   to: '/docs/category/rust编程入门实战与进阶朱春雷',
+              // },
             ],
           },
           {
