@@ -1,8 +1,8 @@
 {
-  "label": "Rust编程：入门、实战与进阶（朱春雷）",
-  "position": 20,
+  "label": "C#上位机开发",
+  "position": 1,
   "link": {
     "type": "generated-index",
-    "description": "Rust编程：入门、实战与进阶（朱春雷）比较适合新手了解Rust编程语言的基本概念和应用场景。"
+    "description": "上位机开发实战教程"
   }
 }
