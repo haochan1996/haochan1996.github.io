@@ -2,7 +2,6 @@
 sidebar_position: 1
 ---
 
-
 ## RS-485串口通讯基础
 
 ### 串口通讯硬件接线
@@ -17,7 +16,8 @@ sidebar_position: 1
 
 常用：（9600，N，8，1）波特率9600b/s，无奇偶校验位，8位数据位，1位停止位
 
- ## Modbus通讯协议
+
+## Modbus通讯协议
 
 ### 关于通讯协议
 
@@ -31,8 +31,8 @@ sidebar_position: 1
 #### Modbus与串行通信关系
 
 1. 前面所讲串行通信格式:表示一个字节的传输协议(9600，N，8,1)，实际应用中数据传送都是多个串行字节组合到一起。
-
-   问题:如何识别多个字节?也就是对多个串行字节传输和解析的标准怎么规定?Modbus就是这个作用。
+   
+    问题:如何识别多个字节?也就是对多个串行字节传输和解析的标准怎么规定?Modbus就是这个作用。
 
 2. Modbus:就是如何用串口一次连续传输多个有序字节的协议。它规定了一次发送多少给字节，以及字节顺序如何排列。
 
@@ -343,7 +343,7 @@ namespace scada.THProjectMain
 
 在解决方案中创建新项目scada.ModbusBase,项目类型选择控制台程序。如果是.net8,需要手动安装 System.IO.Ports包。
 
-```
+```C#
 using System.IO;
 using System.IO.Ports;
 
@@ -444,7 +444,7 @@ namespace scada.ModbusBase
 
 ```
 
-使用Modbus slave 工具模拟一个Modbus服务端，运行控制台程序，这里创建了虚拟串口COM11<-->COM12，创建方式不过多赘述。
+使用Modbus slave 工具模拟一个Modbus服务端，运行控制台程序，这里创建了虚拟串口`COM11<-->COM12`，创建方式不过多赘述。
 
 ![image-20250521131401556](https://blog-1301697820.cos.ap-guangzhou.myqcloud.com/blog/image-20250521131401556.png)
 
@@ -719,7 +719,7 @@ namespace scada.ModbusRTUlib
 
 修改FromMain.cs实现后端逻辑。
 
-```
+```c#
 using static scada.MyControls.THMeter;
 using System.IO.Ports;
 using scada.ModbusRTUlib;
